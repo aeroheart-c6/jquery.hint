@@ -1,0 +1,30 @@
+p.jquery.hint-choice {
+  margin: 0px;
+  padding:5px;
+  
+  background-color: #888;
+  color:            #fff;
+  
+  cursor: default;
+}
+
+p.jquery.hint-choice:hover {
+  background-color: #000;
+  color:            #00bbff;
+}
+
+p.jquery.hint-choice.selected {
+  margin: 0px;
+  padding:5px; 
+  
+  background-color: #000; 
+  color:            #00bbff;
+  
+  cursor: default;
+}
+
+div.jquery.hint-choice-container {
+  -webkit-border-bottom-left-radius:5px;
+  -webkit-border-bottom-right-radius:5px;
+  z-index:80;
+}
